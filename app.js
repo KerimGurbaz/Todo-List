@@ -2,6 +2,12 @@ const plus = document.querySelector(".plus");
 const main = document.querySelector(".main");
 // const todo = document.querySelector(".todo").value;
 let para ;
+todo = document.querySelector(".todo");
+
+
+
+
+
 
 // main.addEventListener("click", (e) =>{
     
@@ -20,5 +26,3 @@ let para ;
     
 //  }
 // })
-todo = document.querySelector(".todo");
-odo className="addEvent"></todo>
