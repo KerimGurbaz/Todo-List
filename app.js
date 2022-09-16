@@ -3,18 +3,22 @@ const main = document.querySelector(".main");
 // const todo = document.querySelector(".todo").value;
 let para ;
 
-main.addEventListener("click", (e) =>{
+// main.addEventListener("click", (e) =>{
     
-    todo = document.querySelector(".todo");
- if(e.target.classList.contains("plus")){
-    para = document.createElement("div");
-    
-    para.innerHTML = `${todo.value}`;
-    main.appendChild(para);
-    para.style.color ="red";
-    para.style.backgroundColor ="green"
+
+//  if(e.target.classList.contains("plus")){
+//     para = document.createElement("div");
+//     const trash = `<i class="fa-solid fa-trash-can"></i>`
+
+//     para.innerHTML = `${todo.value}`;
+//     main.appendChild(para);
+//     main.appendChild(trash);
+//     para.style.color ="red";
+//     para.style.backgroundColor ="green"
 
 
     
- }
-})
+//  }
+// })
+todo = document.querySelector(".todo");
+odo className="addEvent"></todo>
