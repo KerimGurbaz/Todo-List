@@ -16,14 +16,14 @@ main.addEventListener("click", (e) =>{
    const newUl = document.createElement("ul");
     let newLi = document.createElement("li");
     newLi.style.listStyle = "none";
-    newLi.style.backgroundColor ="red"
+    newLi.style.backgroundColor ="blue"
     newLi.style.color ="white"
     
     newUl.style.flex
-    const trash = `<i class="fa-solid fa-trash-can"></i>`
-    const space = "    ";
+    const trash = `<p><i class="fa-solid fa-trash-can"></i></p>`
+  
    
-    newLi.innerHTML = `<input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">${space}${todo.value}${trash}` ;
+    newLi.innerHTML = `<input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">${todo.value}${trash}` ;
     newUl.appendChild(newLi);
     main.appendChild(newUl);
  }
