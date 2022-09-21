@@ -8,9 +8,17 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
+  margin-bottom: 1rem;
+  background-color: greenyellow;
+  color: red;
+  font-size: 1.5rem;
 }
 
 .myStyle {
   background-color: red;
+  color: white;
+}
+
+.otherStyle {
+  text-decoration: line-through;
 }
