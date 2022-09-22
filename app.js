@@ -10,26 +10,26 @@ main.addEventListener("click", (e) =>{
       const newLi = document.createElement("li");
       newLi.style.listStyle = "none";
       main.appendChild(newLi);
-      newLi.innerHTML = `<i class="fa-solid fa-check"></i>
+      newLi.innerHTML = `<i class="fa-solid fa-stopwatch"></i>
       <p> ${todo.value}</p>
        <i class="fa-solid fa-trash-can"></i>`; 
-       
-      
       todo.value= " ";
-} else if(e.target.classList.contains("fa-check") && !e.target.classList.contains("myStyle")){
-   e.target.classList.add("myStyle");
+} else if(e.target.classList.contains("fa-stopwatch") && !e.target.parentElement.classList.contains("myStyle")){
+   e.target.parentElement.classList.add("myStyle");
   e.target.nextElementSibling.style.textDecoration = "line-through";
-   
+
 }
+
+else if(e.target.parentElement.classList.contains("myStyle") ){
+   e.target.parentElement.classList.remove("myStyle")
+   e.target.nextElementSibling.style.textDecoration = "none";
+}
+
 else if(e.target.classList.contains("fa-trash-can")){
    console.log(e.target.parentElement.remove())
+
 }
-else{
-   e.target.classList.remove("myStyle");
-   e.target.nextElementSibling.style.textDecoration = "none";
-   
-   
-}
+
 })
 
 

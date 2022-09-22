@@ -3,11 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+body {
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+}
 
 .container {
   background: url(https://cdn.pixabay.com/photo/2017/01/31/13/18/house-2023960_960_720.png);
@@ -16,6 +14,7 @@
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 1rem;
 }
 
 li {
@@ -23,12 +22,13 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-  background-color: greenyellow;
-  color: red;
+  background-color: #0bd904;
+  color: #fff;
   font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 .myStyle {
-  background-color: red;
-  color: white;
+  color: #f20530;
 }
